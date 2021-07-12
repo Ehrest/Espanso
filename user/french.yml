@@ -1,0 +1,118 @@
+name: french
+parent: default
+
+matches:
+
+  # ------------------------------------------------------------ OE
+
+  - trigger: ":oe"
+    replace: "œ"
+
+  - trigger: ":OE"
+    replace: "Œ"
+
+  # ------------------------------------------------------------ AE
+
+  - trigger: ":ae"
+    replace: "æ"
+
+  - trigger: ":AE"
+    replace: "Æ"
+
+  # ------------------------------------------------------------ E
+
+  # - trigger: ":e'"
+  #   replace: "é"
+
+  # - trigger: ":e`"
+  #   replace: "è"
+
+  # - trigger: ":e^"
+  #   replace: "ê"
+
+  # - trigger: ":e:"
+  #   replace: "ë"
+
+  - trigger: ":é"
+    replace: "É"
+
+  - trigger: ":è"
+    replace: "È"
+
+  # - trigger: ":E^"
+  #   replace: "Ê"
+
+  # - trigger: ":E:"
+  #   replace: "Ë"
+
+  # ------------------------------------------------------------ O
+
+  # - trigger: ":o^"
+  #   replace: "ô"
+
+  # - trigger: ":O^"
+  #   replace: "Ô"
+
+  # ------------------------------------------------------------ A
+
+  # - trigger: ":a`"
+  #   replace: "à"
+
+  # - trigger: ":a^"
+  #   replace: "â"
+
+  - trigger: ":à"
+    replace: "À"
+
+  # - trigger: ":A^"
+  #   replace: "Â"
+
+  # ------------------------------------------------------------ I
+
+  # - trigger: ":i^"
+  #   replace: "î"
+
+  # - trigger: ":i:"
+  #   replace: "ï"
+
+  # - trigger: ":I^"
+  #   replace: "Î"
+
+  # - trigger: ":I:"
+  #   replace: "Ï"
+
+  # ------------------------------------------------------------ U
+
+  # - trigger: ":u`"
+  #   replace: "ù"
+
+  # - trigger: ":u^"
+  #   replace: "û"
+
+  # - trigger: ":u:"
+  #   replace: "ü"
+
+  # - trigger: ":U`"
+  #   replace: "Ù"
+
+  # - trigger: ":U^"
+  #   replace: "Û"
+
+  # - trigger: ":U:"
+  #   replace: "Ü"
+
+  # ------------------------------------------------------------ Y
+
+  # - trigger: ":y:"
+  #   replace: "ÿ"
+  
+  # - trigger: ":Y:"
+  #   replace: "Ÿ"
+
+  # ------------------------------------------------------------ C
+
+  # - trigger: ":c,"
+  #   replace: "ç"
+  
+  # - trigger: ":C,"
+  #   replace: "Ç"

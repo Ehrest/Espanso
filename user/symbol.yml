@@ -1,0 +1,42 @@
+name: symbol
+parent: default
+
+matches:
+
+  - trigger: ":."
+    replace: "•"
+
+  - trigger: ":sc0"
+    replace: "⁰"
+
+  - trigger: ":sc1"
+    replace: "¹"
+
+  - trigger: ":sc2"
+    replace: "²"
+    
+  - trigger: ":sc3"
+    replace: "³"
+    
+  - trigger: ":sc4"
+    replace: "⁴"
+    
+  - trigger: ":sc5"
+    replace: "⁵"
+    
+  - trigger: ":sc6"
+    replace: "⁶"
+    
+  - trigger: ":sc7"
+    replace: "⁷"
+    
+  - trigger: ":sc8"
+    replace: "⁸"
+    
+  - trigger: ":sc9"
+    replace: "⁹"
+    
+  - trigger: ":scn"
+    replace: "ⁿ"
+
+

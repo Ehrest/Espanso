@@ -1,0 +1,38 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Hide the icon in the system
+show_icon: true
+
+# Hide the notifications
+show_notifications: true
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":ulog"
+    replace: "Debug.Log(\"$|$\")"
+
+  - trigger: ":jslog"
+    replace: "console.log(\"$|$\")"
+
+  # Dates
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y%m%d"
+
+  - trigger: ":uid"
+    replace: "{{uid}}"
+    vars:
+      - name: uid
+        type: date
+        params:
+          format: "%Y%m%d%H%M%S"
