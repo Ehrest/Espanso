@@ -10,6 +10,9 @@ show_icon: true
 # Hide the notifications
 show_notifications: true
 
+# Disable the toggle key
+toggle_key: OFF
+
 # Matches are the substitution rules, when you type the "trigger" string
 # it gets replaced by the "replace" string.
 matches:
