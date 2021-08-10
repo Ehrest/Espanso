@@ -32,6 +32,22 @@ matches:
         params:
           format: "%Y%m%d"
 
+  - trigger: ":ddate"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y.%m.%d"
+
+  - trigger: ":udate"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y_%m_%d"
+
   - trigger: ":uid"
     replace: "{{uid}}"
     vars:
