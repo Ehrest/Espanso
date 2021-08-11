@@ -114,5 +114,5 @@ matches:
   # - trigger: ":c,"
   #   replace: "ç"
   
-  # - trigger: ":C,"
-  #   replace: "Ç"
+  - trigger: ":ç"
+    replace: "Ç"
