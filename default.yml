@@ -55,3 +55,6 @@ matches:
         type: date
         params:
           format: "%Y%m%d%H%M%S"
+
+  - trigger: ":pts"
+    replace: "\\[T]/"
