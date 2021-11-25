@@ -58,3 +58,9 @@ matches:
 
   - trigger: ":pts"
     replace: "\\[T]/"
+
+  - trigger: ":ppts"
+    replace: "\\\\[T]/"
+
+  - trigger: ":todo"
+    replace: "- [ ] "
