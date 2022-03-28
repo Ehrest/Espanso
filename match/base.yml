@@ -29,6 +29,15 @@ matches:
           format: "%Y_%m_%d"
   - trigger: ":uid"
     replace: "{{uid}}"
+  - trigger: ":sdate"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%d/%m/%Y"
+  - trigger: ":uid"
+    replace: "{{uid}}"
     vars:
       - name: uid
         type: date
